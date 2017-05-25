@@ -1,0 +1,32 @@
+#! /usr/bin/env bash
+
+echo "This script will set the environment variables for the rest of the scripts"
+
+#
+# The following variables describes the details for the mantl instance we are using
+#
+control_address={INSERT MANTL CONTROL ADDRESS}
+mantl_user={INSERT MANTL USERNAME}
+mantl_password={INSERT MANTL PASSWORD}
+mantl_domain={INSERT MANTL DOMAIN}
+
+#
+# The following variables describes the docker details for where our container is published
+#
+docker_username={INSERT DOCKER USERNAME}
+docker_repo={INSERT DOCKER REPO NAME}
+
+#
+# The following variables describes the BOT details that we will be using
+#
+bot_name={INSERT BOT NAME}
+bot_email={INSERT BOT EMAIL}
+bot_token={INSERT BOT TOKEN}
+
+#
+# The following variables describes the ID used for access to the Cisco PSIERT API
+#
+client_id={INSERT CLIENT ID FOR PSIRT API CONSOLE}
+client_secret={INSERT CLIENT SECRET FOR PSIRT API CONSOLE}
+
+
